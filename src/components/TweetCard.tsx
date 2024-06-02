@@ -20,7 +20,7 @@ const TweetCard: React.FC<TweetCardProps> = ({ tweet, isShareable = false }) => 
 
   const handleOpenModal = (event: React.MouseEvent) => {
     event.stopPropagation();
-    alert(tweet.id)
+
     dispatch(openModal());
   };
 

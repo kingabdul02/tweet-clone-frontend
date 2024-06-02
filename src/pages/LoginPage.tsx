@@ -27,7 +27,7 @@ const LoginPage: React.FC = () => {
       navigate('/');
     } catch (error: any) {
       console.error('Failed to login:', error);
-      setErrorMessage(error.message); // Set error message state
+      setErrorMessage(error.message);
     }
   };
 
